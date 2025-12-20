@@ -102,32 +102,92 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Meet Matthew Section */}
+      <section className="section-padding bg-white">
+        <div className="container-wide px-6 lg:px-12">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+            {/* Left - Image */}
+            <div className="scroll-animate opacity-0 translate-y-8 order-2 lg:order-1">
+              <div className="relative">
+                <Image
+                  src="/images/matthew-standing.jpg"
+                  alt="Matthew Hodgson - CEO Advisor"
+                  width={600}
+                  height={450}
+                  className="w-full h-auto object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                {/* Decorative element */}
+                <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-[var(--gold)]/10 -z-10" />
+              </div>
+            </div>
+
+            {/* Right - Content */}
+            <div className="scroll-animate opacity-0 translate-y-8 order-1 lg:order-2" style={{ transitionDelay: '0.1s' }}>
+              <span className="font-body text-sm uppercase tracking-widest text-[var(--gold)] mb-4 block">
+                Meet Matthew
+              </span>
+              <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-[var(--charcoal)] mb-6">
+                I help CEOs see what&apos;s really happening.
+              </h2>
+              <div className="gold-line w-16 mb-8" />
+              <p className="text-lg text-[var(--slate)] mb-6 leading-relaxed">
+                After a decade as a professional athlete and studying psychology, I learned that performance isn&apos;t just about capability&mdash;it&apos;s about conditions.
+              </p>
+              <p className="text-lg text-[var(--slate)] mb-8 leading-relaxed">
+                Now I work with CEOs to diagnose the hidden dynamics that prevent good people from doing their best work. No programs. No frameworks. Just clarity.
+              </p>
+              <Link href="/about" className="btn-secondary">
+                <span>My Full Story</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Value Proposition Section */}
       <section className="section-padding bg-[var(--cream)]">
         <div className="container-wide px-6 lg:px-12">
-          <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-            {/* Left Column - Statement */}
-            <div className="scroll-animate opacity-0 translate-y-8">
-              <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-[var(--charcoal)] mb-8 leading-tight">
-                Most organisations don&apos;t struggle because people lack capability.
-              </h2>
-              <p className="text-xl md:text-2xl text-[var(--slate)] font-display italic">
-                They struggle because the environment makes good decisions harder than they should be.
-              </p>
+          <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-center">
+            {/* Left Column - Image (2 cols) */}
+            <div className="scroll-animate opacity-0 translate-y-8 lg:col-span-2 hidden lg:block">
+              <div className="relative aspect-[3/4] overflow-hidden">
+                <Image
+                  src="/images/matthew-listening.jpg"
+                  alt="Matthew Hodgson listening"
+                  fill
+                  className="object-cover"
+                  sizes="40vw"
+                />
+              </div>
             </div>
 
-            {/* Right Column - Explanation */}
-            <div className="scroll-animate opacity-0 translate-y-8" style={{ transitionDelay: '0.2s' }}>
-              <div className="gold-line w-16 mb-8" />
-              <p className="text-lg text-[var(--slate)] mb-6 leading-relaxed">
-                When leadership intent stops translating cleanly into behaviour, execution suffers&mdash;even in strong teams.
-              </p>
-              <p className="text-lg text-[var(--slate)] mb-8 leading-relaxed">
-                I work directly with CEOs to remove the conditions that cause capable people to misfire, so the organisation can move with clarity and intent.
-              </p>
-              <p className="font-display text-2xl text-[var(--charcoal)]">
-                When the path is clear, behaviour stabilises, and results follow.
-              </p>
+            {/* Right Column - Content (3 cols) */}
+            <div className="lg:col-span-3">
+              <div className="scroll-animate opacity-0 translate-y-8 mb-12">
+                <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-[var(--charcoal)] mb-8 leading-tight">
+                  Most organisations don&apos;t struggle because people lack capability.
+                </h2>
+                <p className="text-xl md:text-2xl text-[var(--slate)] font-display italic">
+                  They struggle because the environment makes good decisions harder than they should be.
+                </p>
+              </div>
+
+              <div className="scroll-animate opacity-0 translate-y-8" style={{ transitionDelay: '0.2s' }}>
+                <div className="gold-line w-16 mb-8" />
+                <p className="text-lg text-[var(--slate)] mb-6 leading-relaxed">
+                  When leadership intent stops translating cleanly into behaviour, execution suffers&mdash;even in strong teams.
+                </p>
+                <p className="text-lg text-[var(--slate)] mb-8 leading-relaxed">
+                  I work directly with CEOs to remove the conditions that cause capable people to misfire, so the organisation can move with clarity and intent.
+                </p>
+                <p className="font-display text-2xl text-[var(--charcoal)]">
+                  When the path is clear, behaviour stabilises, and results follow.
+                </p>
+              </div>
             </div>
           </div>
         </div>
