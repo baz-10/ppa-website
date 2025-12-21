@@ -154,12 +154,12 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-center">
             {/* Left Column - Image (2 cols) */}
             <div className="scroll-animate opacity-0 translate-y-8 lg:col-span-2 hidden lg:block">
-              <div className="relative aspect-[3/4] overflow-hidden">
+              <div className="relative aspect-[2/3] overflow-hidden">
                 <Image
                   src="/images/matthew-listening.jpg"
                   alt="Matthew Hodgson listening"
                   fill
-                  className="object-cover"
+                  className="object-cover object-[left_20%]"
                   sizes="40vw"
                 />
               </div>
