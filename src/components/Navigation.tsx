@@ -21,7 +21,8 @@ export default function Navigation() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
-    { href: '/advisory', label: 'Advisory' },
+    { href: '/services', label: 'Services' },
+    { href: '/insights', label: 'Insights' },
     { href: '/contact', label: 'Contact' },
   ];
 
@@ -74,7 +75,7 @@ export default function Navigation() {
               href="/contact"
               className="btn-primary ml-4"
             >
-              <span>Book a Conversation</span>
+              <span>Start a Conversation</span>
             </Link>
           </div>
 
@@ -141,7 +142,7 @@ export default function Navigation() {
             }`}
             style={{ transitionDelay: '400ms' }}
           >
-            <span>Book a Conversation</span>
+            <span>Start a Conversation</span>
           </Link>
         </div>
       </div>

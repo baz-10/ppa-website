@@ -21,9 +21,6 @@ export default function Footer() {
               Clear the path. Getting organisations out of their own way.
             </p>
             <div className="gold-line w-16 mb-6" />
-            <p className="text-white/60 text-sm">
-              Independent advisory for CEOs seeking clarity under pressure.
-            </p>
           </div>
 
           {/* Navigation */}
@@ -35,7 +32,8 @@ export default function Footer() {
               {[
                 { href: '/', label: 'Home' },
                 { href: '/about', label: 'About' },
-                { href: '/advisory', label: 'Advisory' },
+                { href: '/services', label: 'Services' },
+                { href: '/insights', label: 'Insights' },
                 { href: '/contact', label: 'Contact' },
               ].map((link) => (
                 <li key={link.href}>
@@ -85,7 +83,7 @@ export default function Footer() {
             &copy; {currentYear} People Performance Advisors. All rights reserved.
           </p>
           <p className="text-white/40 text-sm">
-            Matthew Hodgson &middot; Independent Advisor to CEOs
+            Matthew Hodgson &middot; Independent Advisor
           </p>
         </div>
       </div>

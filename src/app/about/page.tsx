@@ -43,13 +43,13 @@ export default function AboutPage() {
               </div>
 
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-[var(--charcoal)] mb-8 animate-fade-in-up animate-on-load" style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}>
-                I&apos;m Matthew Hodgson, an independent advisor to CEOs.
+                Matthew Hodgson &ndash; Independent Advisor
               </h1>
 
               <div className="gold-line w-24 mb-8 animate-line-expand animate-on-load" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }} />
 
               <p className="text-lg text-[var(--slate)] leading-relaxed animate-fade-in-up animate-on-load" style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
-                My background isn&apos;t corporate. I spent a decade as a professional athlete, studied psychology, and advised in environments where pressure was constant and results were visible.
+                This page outlines how I think about organisations, and how that thinking translates into the work.
               </p>
             </div>
 
@@ -85,22 +85,31 @@ export default function AboutPage() {
             <div className="gold-line w-16 mb-10" />
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 lg:gap-16">
+          <div className="grid md:grid-cols-3 gap-12 lg:gap-16">
             <div className="scroll-animate opacity-0 translate-y-8">
               <p className="text-xl text-[var(--charcoal)] font-display leading-relaxed mb-6">
-                People are usually capable.
+                Start with reality.
               </p>
               <p className="text-lg text-[var(--slate)] leading-relaxed">
-                The conditions around them determine what shows up. Most interventions try to change people. I focus on the underlying conditions that shape decision-making.
+                Progress begins with seeing the organisation as it is, not as it&apos;s described or intended.
               </p>
             </div>
 
             <div className="scroll-animate opacity-0 translate-y-8" style={{ transitionDelay: '0.1s' }}>
               <p className="text-xl text-[var(--charcoal)] font-display leading-relaxed mb-6">
-                I don&apos;t add programs or frameworks.
+                Read pressure accurately.
               </p>
               <p className="text-lg text-[var(--slate)] leading-relaxed">
-                I remove what interferes, so leadership intent can actually translate into action. This is precise work, and its effects are unmistakable.
+                Pressure exposes weaknesses and distorts behaviour. Treated properly, it becomes useful information rather than unwanted interference.
+              </p>
+            </div>
+
+            <div className="scroll-animate opacity-0 translate-y-8" style={{ transitionDelay: '0.2s' }}>
+              <p className="text-xl text-[var(--charcoal)] font-display leading-relaxed mb-6">
+                See through the noise.
+              </p>
+              <p className="text-lg text-[var(--slate)] leading-relaxed">
+                Excellence requires sustained focus. Focus is built upon being able to decipher what is important from what isn&apos;t.
               </p>
             </div>
           </div>
@@ -130,7 +139,7 @@ export default function AboutPage() {
                 Background
               </span>
               <h2 className="font-display text-3xl md:text-4xl text-[var(--charcoal)] mb-8">
-                Forged under pressure
+                A Different Lens
               </h2>
               <div className="gold-line w-16 mb-8" />
 
@@ -142,8 +151,8 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-display text-xl text-[var(--charcoal)] mb-2">Professional Athlete</h3>
-                    <p className="text-[var(--slate)]">A decade of high-performance sport where results are visible and pressure is constant.</p>
+                    <h3 className="font-display text-xl text-[var(--charcoal)] mb-2">Professional Sport</h3>
+                    <p className="text-[var(--slate)]">Over a decade inside elite teams where pressure exposed what actually drives success and failure.</p>
                   </div>
                 </div>
 
@@ -154,8 +163,8 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-display text-xl text-[var(--charcoal)] mb-2">Psychology Background</h3>
-                    <p className="text-[var(--slate)]">Deep understanding of what drives behaviour and decision-making under pressure.</p>
+                    <h3 className="font-display text-xl text-[var(--charcoal)] mb-2">Formal Psychology Education</h3>
+                    <p className="text-[var(--slate)]">Deep understanding of what drives behaviour and decision-making.</p>
                   </div>
                 </div>
 
@@ -166,8 +175,8 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-display text-xl text-[var(--charcoal)] mb-2">Advisory Experience</h3>
-                    <p className="text-[var(--slate)]">Trusted advisor to CEOs in high-stakes environments where clarity means everything.</p>
+                    <h3 className="font-display text-xl text-[var(--charcoal)] mb-2">Applied Organisational Work</h3>
+                    <p className="text-[var(--slate)]">Experience working inside organisations where decisions have real consequences.</p>
                   </div>
                 </div>
               </div>
@@ -184,11 +193,11 @@ export default function AboutPage() {
               My Approach
             </span>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-white mb-10 leading-tight">
-              Precision over programs. Clarity over complexity.
+              See what&apos;s real. Say what matters. Remove what doesn&apos;t.
             </h2>
             <div className="gold-line w-16 mx-auto mb-10" />
             <p className="text-xl text-white/80 leading-relaxed max-w-2xl mx-auto">
-              I work where ambiguity is high and misalignment carries real consequences. My role is to help leadership see what is actually driving outcomes&mdash;and what&apos;s interfering with them.
+              I work from what&apos;s actually happening, not what&apos;s claimed. I pay attention to where pressure distorts judgment and where noise replaces signal. The work changes, but the lens doesn&apos;t. From this, clarity follows. And the right actions become obvious.
             </p>
           </div>
         </div>
@@ -198,28 +207,17 @@ export default function AboutPage() {
       <section className="section-padding bg-white">
         <div className="container-narrow px-6 lg:px-12 text-center scroll-animate opacity-0 translate-y-8">
           <span className="font-body text-sm uppercase tracking-widest text-[var(--gold)] mb-4 block">
-            Work With Me
+            Enquire
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-[var(--charcoal)] mb-6">
-            Ready to clear the path?
-          </h2>
           <p className="text-lg text-[var(--slate)] mb-10 max-w-xl mx-auto">
-            If something isn&apos;t working the way it should, let&apos;s have a conversation about what&apos;s really going on.
+            If something isn&apos;t working the way it should, let&apos;s talk.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="btn-primary inline-flex">
-              <span>Book a Conversation</span>
-              <svg className="w-4 h-4 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-            <Link href="/advisory" className="btn-secondary">
-              <span>See How I Work</span>
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
-          </div>
+          <Link href="/contact" className="btn-primary inline-flex">
+            <span>Start a Conversation</span>
+            <svg className="w-4 h-4 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
         </div>
       </section>
     </>

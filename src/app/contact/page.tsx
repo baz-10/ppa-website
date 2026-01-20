@@ -72,7 +72,7 @@ export default function ContactPage() {
             </h1>
 
             <p className="text-xl text-[var(--slate)] max-w-2xl mx-auto leading-relaxed animate-fade-in-up animate-on-load" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
-              If something isn&apos;t working the way it should, reach out. No pitch, no pressure&mdash;just an honest conversation.
+              If something isn&apos;t working the way it should, reach out.
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function ContactPage() {
             {/* Left - Form */}
             <div className="scroll-animate opacity-0 translate-y-8">
               <span className="font-body text-sm uppercase tracking-widest text-[var(--gold)] mb-4 block">
-                Book a Conversation
+                Start a Conversation
               </span>
               <h2 className="font-display text-3xl md:text-4xl text-[var(--charcoal)] mb-8">
                 Let&apos;s talk
@@ -249,37 +249,12 @@ export default function ContactPage() {
                     Brisbane, QLD Australia
                   </p>
                   <p className="text-[var(--slate)] text-sm mt-2">
-                    Available for in-person and remote advisory engagements
-                  </p>
-                </div>
-
-                <div className="pt-4">
-                  <div className="gold-line w-16 mb-6" />
-                  <p className="text-[var(--slate)] italic">
-                    &ldquo;Clarity starts with a conversation. If something isn&apos;t working the way it should, reach out.&rdquo;
-                  </p>
-                  <p className="text-[var(--charcoal)] mt-2 font-display">
-                    &mdash; Matthew Hodgson
+                    Available in-person and remotely
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Map/Final CTA Section */}
-      <section className="section-padding bg-[var(--charcoal)] text-white">
-        <div className="container-narrow px-6 lg:px-12 text-center scroll-animate opacity-0 translate-y-8">
-          <span className="font-body text-sm uppercase tracking-widest text-[var(--gold)] mb-4 block">
-            Ready?
-          </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-white mb-6">
-            Clarity is your greatest advantage.
-          </h2>
-          <p className="font-display text-2xl text-[var(--gold)] italic">
-            Let&apos;s create it.
-          </p>
         </div>
       </section>
     </>
